@@ -9,9 +9,9 @@ A ESP8266-based standalone server monitor for the nodeMCU firmware.
 
 The the ESP8266 module used in this project is ESP03. The LDO for Vcc is an AMS1117, decoupled with two 22uF capacitors. AMS1117-3.3V is recommended. Connect 2 LEDs to GPIO12 (red) and GPIO14 (blue) as the server status indicators.
 
-*CH_PD must be connected to Vcc.
-*GPIO15 must be connected to GND.
-*To flash the firmware, connect GPIO0 to GND before booting it. 
+* CH_PD must be connected to Vcc.
+* GPIO15 must be connected to GND.
+* To flash the firmware, connect GPIO0 to GND before booting it. 
 
 ## Firmware ##
 The firmware used in this project is nodemcu_512k_20141230.bin
