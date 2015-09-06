@@ -22,7 +22,7 @@ function setting_HTTP()
         buf = buf.."<p>Now monitoring "..IP_record.."</p>";
         buf = buf.."Update the target IP <input type=\"text\" name=\"IP\">";
         buf = buf.."<input type=\"submit\" value=\"Submit\">";
-        buf = buf.."<p>Tai-Hsien Ouyang, 2015<\p></form></body></html>";
+        buf = buf.."<p>Tai-Hsien Ouyang, 2015</p></form></body></html>";
         if parsePost[2]~=nil then
             IP_record_print='IP_record='..'"'..string.sub(request,parsePost[2]+1,#request)..'"';
             IP_record=string.sub(request,parsePost[2]+1,#request)
